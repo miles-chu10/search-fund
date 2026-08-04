@@ -6,7 +6,7 @@
   "approval": {
     "required": true,
     "granted": true,
-    "notes": "Miles authorized bounded research packets and a local implementation commit. GitHub creation/push stays with the root supervisor. No deployment, outreach, spending, or capital solicitation is authorized."
+    "notes": "Miles authorized bounded research packets, local implementation, and private GitHub publication. No deployment, outreach, spending, or capital solicitation is authorized."
   },
   "packets": [
     {
@@ -46,14 +46,16 @@
       "mobile UI",
       "workflow artifacts",
       "secret hygiene",
-      "local commit SHA readback"
+      "local commit SHA readback",
+      "private GitHub publication and remote SHA readback"
     ],
     "evidence": {
-      "unitTests": "12 passed across 4 files",
+      "unitTests": "13 passed across 4 files",
       "sourceProvenance": "10 of 10 opportunities validated",
       "uiSmoke": "4 passed across desktop and mobile Chrome",
       "browserVisual": "desktop pipeline/memo and mobile pipeline/capital inspected; no console warnings or errors",
-      "productionBuild": "Vite 8.2.0 build passed"
+      "productionBuild": "Vite 8.2.0 build passed",
+      "github": "Private repository published at https://github.com/miles-chu10/search-fund-command-center"
     }
   }
 }
