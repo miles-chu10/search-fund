@@ -4,16 +4,24 @@ Partner-facing local prototype for sourcing, screening, and discussing small-bus
 
 Every opportunity is an **unverified lead**, not an investment recommendation or proof of availability. Source-reported facts, calculations, underwriting inferences, and unknowns remain visibly separate.
 
-## Run the demo
+## Open the demo
+
+The durable partner preview is live at:
+
+https://search-fund-command-center.vercel.app/
+
+The hosted preview does not depend on a Codex task, worktree, or local development server.
+
+## Run locally
 
 Requirements: Node.js 22+ and npm 10+.
 
 ```bash
 npm ci
-npm run dev
+npm run dev -- --host 127.0.0.1 --port 4173
 ```
 
-Open `http://127.0.0.1:4173`. No API key, `.env` file, connector, database, or paid service is required.
+Keep that terminal process running, then open `http://127.0.0.1:4173/`. A localhost link stops working when its server process ends. No API key, `.env` file, connector, database, or paid service is required.
 
 For a partner walkthrough:
 

@@ -15,7 +15,7 @@ Implemented and verified a credential-free, partner-facing React/TypeScript acqu
 
 - No sold, under-offer, closed, fetch-blocked, or probable duplicate listing was added to the demo set.
 - No hidden financial value, management cost, DSCR, MACF, SBA eligibility, financing availability, seller intent, or current availability was invented.
-- No Airtable base, Scheduled Task, Clay workflow, outreach, deployment, or capital solicitation was performed. The verified MVP was published only to a private GitHub repository.
+- No Airtable base, Scheduled Task, Clay workflow, outreach, or capital solicitation was performed. The verified MVP was published to a private GitHub repository and a public, credential-free partner preview.
 - The MVP does not reproduce every diligence-grade metric from Packet 02; it implements the smallest honest public-listing screen and keeps unsupported outputs unavailable.
 
 ## Conflicts Resolved
@@ -35,13 +35,14 @@ Implemented and verified a credential-free, partner-facing React/TypeScript acqu
 - `npm run validate:workflow`: dynamic-workflow artifact validation passed.
 - `git diff --check`, secret-pattern scan, staged-path review, and clean post-commit status are completion gates.
 - GitHub: private repository creation, `main` push, visibility readback, and local/remote SHA equality were verified by the root supervisor.
+- Hosted preview: Vercel deployment `dpl_3BMp6Xn59NHspZGUhLPd47DPUSDr` reached `READY`; `https://search-fund-command-center.vercel.app/` returned HTTP 200 and the expected Main Street Radar document.
 
 ## Remaining Risks
 
 - Public listing data remains unverified and can change after the 2026-08-03 retrieval date.
 - The refresh, Airtable, Parallel, Clay, and scheduled briefing surfaces are architecture previews, not connected systems.
 - The capital percentages and uses placeholders are internal demo assumptions, not transaction terms or professional advice.
-- Live connectors and automations remain intentionally unconfigured; this repository is a credential-free prototype.
+- Live connectors and automations remain intentionally unconfigured; the hosted application is still a credential-free prototype.
 
 ## Reusable Follow-up
 

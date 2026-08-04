@@ -6,7 +6,7 @@
   "approval": {
     "required": true,
     "granted": true,
-    "notes": "Miles authorized bounded research packets, local implementation, and private GitHub publication. No deployment, outreach, spending, or capital solicitation is authorized."
+    "notes": "Miles authorized bounded research packets, local implementation, private GitHub publication, and a hosted partner preview. No outreach, spending, or capital solicitation is authorized."
   },
   "packets": [
     {
@@ -47,7 +47,8 @@
       "workflow artifacts",
       "secret hygiene",
       "local commit SHA readback",
-      "private GitHub publication and remote SHA readback"
+      "private GitHub publication and remote SHA readback",
+      "hosted preview deployment and HTTP readback"
     ],
     "evidence": {
       "unitTests": "13 passed across 4 files",
@@ -55,7 +56,8 @@
       "uiSmoke": "4 passed across desktop and mobile Chrome",
       "browserVisual": "desktop pipeline/memo and mobile pipeline/capital inspected; no console warnings or errors",
       "productionBuild": "Vite 8.2.0 build passed",
-      "github": "Private repository published at https://github.com/miles-chu10/search-fund-command-center"
+      "github": "Private repository published at https://github.com/miles-chu10/search-fund-command-center",
+      "hostedPreview": "Vercel deployment dpl_3BMp6Xn59NHspZGUhLPd47DPUSDr is READY at https://search-fund-command-center.vercel.app/ with HTTP 200 readback"
     }
   }
 }
