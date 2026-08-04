@@ -1,0 +1,43 @@
+{
+  "version": "refresh-v1.0",
+  "mode": "architecture_preview",
+  "schedule": {
+    "cadence": "weekdays",
+    "localTime": "07:30",
+    "timeZone": "America/Los_Angeles",
+    "active": false
+  },
+  "systems": {
+    "primaryDiscovery": "Exa",
+    "secondaryValidation": "Parallel Search",
+    "proposedSourceOfTruth": "Airtable",
+    "futureProprietaryPipeline": "Clay"
+  },
+  "steps": [
+    "search",
+    "fetch_validate",
+    "normalize",
+    "dedupe",
+    "detect_changes",
+    "score",
+    "brief",
+    "human_review"
+  ],
+  "identity": {
+    "primary": "source:listingId",
+    "fallback": "sha256(canonicalUrl)"
+  },
+  "fieldStates": ["sourced", "calculated", "inferred", "unknown"],
+  "dailyBrief": {
+    "include": ["new_in_thesis", "materially_changed_in_thesis", "status_changed"],
+    "suppress": ["unchanged"],
+    "sort": ["finalScore:desc", "dataConfidencePoints:desc", "retrievedAt:desc"]
+  },
+  "weeklyRollup": ["top_new_or_changed", "score_movements", "critical_gaps", "pipeline_stage_counts", "coverage_gaps"],
+  "failureBehavior": {
+    "blockedFetch": "retain_prior_and_flag_review",
+    "conflict": "retain_observations_and_mark_unknown",
+    "missingField": "store_null_no_assumption"
+  },
+  "externalMutation": false
+}

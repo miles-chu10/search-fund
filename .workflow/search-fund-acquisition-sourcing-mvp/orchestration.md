@@ -14,7 +14,7 @@
 - If a listing hides a field, store `null` and show `Unknown`; never estimate it silently.
 - If the dashboard stack cannot be installed cleanly, fall back to a self-contained TypeScript/Vite implementation before changing product scope.
 - If a UI state fails visual QA, fix the smallest owning component and rerun both viewport checks.
-- If GitHub authentication or repository creation fails, stop after a local verified commit and report the exact blocker.
+- Do not create or push a GitHub repository from this implementation task; stop after a local verified commit for root integration.
 
 ## Packet Prompts
 
@@ -41,4 +41,4 @@ Inspect the rendered product at desktop and mobile sizes. Exercise filtering, ra
 - Missing fields render as unknown and do not become zero silently.
 - The partner demo works from a clean install with no secrets.
 - All automated and visual checks pass.
-- GitHub remote and default-branch SHA match the local commit.
+- The nested repository records the verified local implementation commit; GitHub readback remains root-owned.

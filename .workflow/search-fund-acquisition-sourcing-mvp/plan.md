@@ -11,13 +11,13 @@ Done when:
 - The prototype includes a credible daily-refresh design and a staged capital-raising workflow without presenting legal, tax, lending, or investment advice as settled.
 - The repository contains a reproducible demo dataset, refresh contract, tests, documentation, and reusable workflow artifacts.
 - Desktop and mobile UI smoke checks, lint/type/test/build checks, source-provenance checks, and a clean diff pass succeed.
-- An independent git repository is committed, created on GitHub, pushed, and read back successfully.
+- The verified implementation is committed in the independent nested repository for root integration; the root supervisor owns GitHub creation and push.
 
 Authoritative sources:
 - Live Exa search/fetch results and the underlying public listing URLs.
 - Listing-level fields visible in those sources; missing fields remain unknown.
 - The repository's tests, build output, and rendered UI.
-- Git and GitHub readback for publication status.
+- Nested-repository Git readback for the implementation commit; GitHub publication remains root-owned.
 
 In scope:
 - US lower-middle-market acquisition opportunities that can plausibly support a manager after transition.
@@ -34,7 +34,7 @@ Constraints and approval gates:
 - Preserve unrelated parent-workspace changes and create a nested independent repository.
 - Never commit secrets or require an API key for the demo path.
 - Treat public listing data as leads to verify, not diligence-grade truth.
-- GitHub creation/push is authorized by Miles's explicit request. Default repository visibility is private unless a safe share requirement is established.
+- This implementation task must not create or push a GitHub repository; the root supervisor owns those external writes.
 - No deployment, seller outreach, capital solicitation, paid services, or user-account changes.
 
 Required verification:
@@ -42,11 +42,11 @@ Required verification:
 - Deterministic scoring tests and missing-data behavior tests.
 - Lint, typecheck, tests, production build, and workflow-artifact validation.
 - Rendered desktop and mobile checks with no overlap, broken controls, or unusable states.
-- Commit/push and remote-head readback.
+- Local commit SHA and clean nested-repository readback.
 
 Stop conditions:
 - All done-when conditions have evidence.
-- An external authentication, repository permission, or missing-data dependency blocks publication or verification.
+- An external dependency or missing-data condition blocks local implementation verification.
 - A required action crosses an ungranted approval gate.
 
 ## Goal
@@ -64,10 +64,10 @@ Create an acquisition command center that turns current public listings into a t
 
 ## Current Context
 
-- The project directory is empty and currently resolves through the parent workspace git repository.
-- Exa is installed and callable in the current Codex environment.
-- No acquisition thesis, geography, or check-size constraints were supplied; the prototype must make defaults explicit and editable.
-- Miles requested dynamic workflows, subagents, a working prototype, and GitHub publication.
+- The project directory is an independent nested Git repository at `/Users/mileschu/code/Work/Search Fund`.
+- Exa-sourced and canonical-page-fetched public leads are preserved as a credential-free fixture with explicit retrieval dates.
+- The four thesis inputs are explicit and editable in the prototype.
+- GitHub creation and push are intentionally deferred to the root supervisor.
 
 ## Constraints
 
@@ -86,7 +86,8 @@ Create an acquisition command center that turns current public listings into a t
 
 ## Approval Required
 
-- Granted: create a small subagent workflow and publish the verified nested repository to GitHub.
+- Granted: use a small bounded research workflow and commit the verified nested-repository implementation.
+- Root-only: create or push the GitHub repository.
 - Not granted: deploy a hosted site, contact third parties, spend money, or solicit capital.
 
 ## Work Packets
@@ -111,7 +112,7 @@ Create an acquisition command center that turns current public listings into a t
 - `npm run build`
 - Browser checks at desktop and mobile widths.
 - `verify_workflow.py` and repository secret/path hygiene checks.
-- GitHub default-branch and commit-SHA readback.
+- Nested-repository commit-SHA and clean-tree readback.
 
 ## Reusable Artifacts
 

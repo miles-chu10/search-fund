@@ -1,0 +1,394 @@
+[
+  {
+    "id": "businessesforsale-3964684",
+    "title": "Absentee-run Commercial Cleaning Company — SBA Pre-Approved",
+    "tier": "A",
+    "industry": "Commercial services",
+    "location": { "label": "Portsmouth, New Hampshire", "region": "Northeast" },
+    "source": {
+      "marketplace": "BusinessesForSale",
+      "listingId": "3964684",
+      "canonicalUrl": "https://us.businessesforsale.com/us/absentee-run-commercial-cleaning-company-sba-pre-approved.aspx",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Accessible page; not marked sold. Availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 750000,
+      "revenue": 352820,
+      "earnings": { "value": 250000, "sourceLabel": "SDE" },
+      "recurringRevenue": "Listing claims 99% recurring revenue across 35 clients and 40 locations.",
+      "workforce": "Five W-2 employees.",
+      "management": "Listing describes an absentee-run operation with written SOPs.",
+      "ownerInvolvement": "Owner reports approximately 10 hours per month.",
+      "financing": "Listing says SBA pre-approved; seller financing is not stated.",
+      "transition": "Training/support stated as available; duration not stated.",
+      "summary": "Commercial cleaning contracts with a small employee base and unusually low stated owner involvement."
+    },
+    "inference": {
+      "managerReadiness": 4,
+      "durableDemand": 4,
+      "recurringQuality": 4,
+      "operationalSimplicity": 3,
+      "concentrationQuality": null,
+      "transitionFeasibility": 4,
+      "rationale": "The listing's absentee claim, SOPs, recurring contracts, and employee base support a strong initial screen; manager compensation and customer concentration still need proof.",
+      "flags": ["Unusually high stated SDE margin", "Contract assignability unverified"]
+    },
+    "unknowns": ["EBITDA", "Customer concentration by revenue", "Manager compensation", "Seller-financing terms"]
+  },
+  {
+    "id": "businessesforsale-3952701",
+    "title": "25-year Recurring Revenue B2B Chat Services Business",
+    "tier": "A",
+    "industry": "B2B software & services",
+    "location": { "label": "Jacksonville, Florida", "region": "Southeast" },
+    "source": {
+      "marketplace": "BusinessesForSale",
+      "listingId": "3952701",
+      "canonicalUrl": "https://us.businessesforsale.com/us/25-year-recurring-revenue-b2b-chat-services-business.aspx",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Listing says still available; not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 4000000,
+      "revenue": null,
+      "earnings": { "value": 694377, "sourceLabel": "SDE" },
+      "largestCustomerShare": 0.05,
+      "recurringRevenue": "Approximately 80 recurring industrial/manufacturing clients; listing says no client is above 5%.",
+      "workforce": null,
+      "management": "Experienced management and senior operators are described.",
+      "ownerInvolvement": "Owner reports one 30-minute meeting every two weeks.",
+      "financing": null,
+      "transition": "Seller transition support is offered; duration not stated.",
+      "summary": "Long-running B2B chat service with a reported diversified recurring client base and established management."
+    },
+    "inference": {
+      "managerReadiness": 4,
+      "durableDemand": 3,
+      "recurringQuality": 4,
+      "operationalSimplicity": 3,
+      "concentrationQuality": 4,
+      "transitionFeasibility": 4,
+      "rationale": "Low stated owner involvement and experienced management make operator replacement plausible, while missing revenue and platform-transition detail reduce underwriting confidence.",
+      "flags": ["Revenue undisclosed", "Proprietary platform transition needs diligence"]
+    },
+    "unknowns": ["Revenue", "Employee count", "Contract terms and churn", "Financing terms"]
+  },
+  {
+    "id": "businessesforsale-3951647",
+    "title": "18-year AI-driven Digital Marketing Agency — Turnkey",
+    "tier": "A",
+    "industry": "Marketing services",
+    "location": { "label": "Remote, United States", "region": "Remote / nationwide" },
+    "source": {
+      "marketplace": "BusinessesForSale",
+      "listingId": "3951647",
+      "canonicalUrl": "https://us.businessesforsale.com/us/sba-approved-18-year-ai-driven-digital-marketing-agency-turnkey.aspx",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Accessible active-format page; availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 799000,
+      "revenue": 587000,
+      "earnings": { "value": 343000, "sourceLabel": "SDE" },
+      "largestCustomerShare": 0.26,
+      "recurringRevenue": "$310,000 of claimed 2026 booked revenue is contracted recurring retainers.",
+      "workforce": "11 internal team members plus external accounting.",
+      "management": "Documented systems and workflows; business is currently owner-operated.",
+      "ownerInvolvement": null,
+      "financing": "Body says SBA-eligible; title says SBA approved. Seller financing is not stated.",
+      "transition": "Transition support is offered; duration not stated.",
+      "summary": "Remote digital agency with team depth, documented workflows, and claimed contracted retainer revenue."
+    },
+    "inference": {
+      "managerReadiness": 2,
+      "durableDemand": 2,
+      "recurringQuality": 3,
+      "operationalSimplicity": 3,
+      "concentrationQuality": 1,
+      "transitionFeasibility": 3,
+      "rationale": "Team depth and documented systems help, but the current owner role and approximately 26% top-client concentration weaken immediate manager readiness.",
+      "flags": ["Top client approximately 26%", "SBA wording is inconsistent"]
+    },
+    "unknowns": ["Owner hours and role", "Retainer churn", "Seller-financing terms", "Transition duration"]
+  },
+  {
+    "id": "businessesforsale-3773588",
+    "title": "High-margin Digital Agency with Sports & Ecommerce Clients",
+    "tier": "A",
+    "industry": "Marketing services",
+    "location": { "label": "Atlanta, Georgia / remote", "region": "Southeast" },
+    "source": {
+      "marketplace": "BusinessesForSale",
+      "listingId": "3773588",
+      "canonicalUrl": "https://us.businessesforsale.com/us/high-margin-digital-agency-w-nba-and-ecomm-clients.aspx",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Accessible active-format page; availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 6500000,
+      "revenue": 2796970,
+      "earnings": { "value": 1600000, "sourceLabel": "EBITDA" },
+      "recurringRevenue": "Approximately 80% recurring revenue from multi-year auto-renewing retainers.",
+      "workforce": "Three senior US employees and more than 10 contractors.",
+      "management": "One partner remains the full-time strategic and operational lead.",
+      "ownerInvolvement": "Two owners report 10–20 hours per week; one owner is full-time.",
+      "financing": "Listing says SBA pre-qualified; seller financing and minority equity rollover are offered.",
+      "transition": "Seller support is offered; duration not stated.",
+      "summary": "Scaled remote agency with recurring retainers, senior employees, and a still-material owner operating role."
+    },
+    "inference": {
+      "managerReadiness": 2,
+      "durableDemand": 2,
+      "recurringQuality": 4,
+      "operationalSimplicity": 2,
+      "concentrationQuality": null,
+      "transitionFeasibility": 2,
+      "rationale": "Senior staff and repeat retainers support continuity, but replacing the full-time operating partner is a material transition assumption.",
+      "flags": ["May exceed a solo-search capital range", "Client concentration unknown"]
+    },
+    "unknowns": ["Client concentration", "Seller-financing terms", "Rollover size", "Replacement executive cost"]
+  },
+  {
+    "id": "quietlight-18689452",
+    "title": "B2B Short-term Rental Data & Management SaaS",
+    "tier": "A",
+    "industry": "B2B software & services",
+    "location": { "label": "Remote / online", "region": "Remote / nationwide" },
+    "source": {
+      "marketplace": "Quiet Light",
+      "listingId": "18689452",
+      "canonicalUrl": "https://quietlight.com/listings/18689452/",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": "2026-07-29",
+      "updatedAt": null,
+      "availabilityClaim": "Page is not marked sold or under offer; availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 1450000,
+      "revenue": 429763,
+      "earnings": { "value": 348809, "sourceLabel": "Income" },
+      "recurringRevenue": "Title states 85% gross retention; two customers representing about 15% of ARR were lost in the prior year.",
+      "workforce": "Development and data validation are handled by contractors.",
+      "management": null,
+      "ownerInvolvement": null,
+      "financing": null,
+      "transition": "Listing says a buyer could learn day-to-day operations in about one month.",
+      "summary": "Compliance-intelligence SaaS serving lenders, property managers, and municipalities."
+    },
+    "inference": {
+      "managerReadiness": 1,
+      "durableDemand": 3,
+      "recurringQuality": 2,
+      "operationalSimplicity": 2,
+      "concentrationQuality": null,
+      "transitionFeasibility": 2,
+      "rationale": "Recurring software revenue is attractive for screening, but contractor reliance, customer losses, and no established management layer increase transition risk.",
+      "flags": ["Income is not relabeled as SDE or EBITDA", "Recent customer losses"]
+    },
+    "unknowns": ["ARR and MRR", "Owner hours", "Customer concentration", "Contractor continuity", "Financing terms"]
+  },
+  {
+    "id": "businessesforsale-3951243",
+    "title": "Property Services with Recurring National Accounts",
+    "tier": "B",
+    "industry": "Commercial services",
+    "location": { "label": "Jacksonville, Florida", "region": "Southeast" },
+    "source": {
+      "marketplace": "BusinessesForSale",
+      "listingId": "3951243",
+      "canonicalUrl": "https://us.businessesforsale.com/us/property-services-i-recurring-rev-national-accounts.aspx",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Accessible active-format page; availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 355000,
+      "revenue": 1105524,
+      "earnings": { "value": 330000, "sourceLabel": "Cash flow" },
+      "recurringRevenue": "Listing claims recurring commercial contracts; percentage is not stated.",
+      "workforce": "Three employees.",
+      "management": "Owner-operated; cloud CRM supports dispatch, estimating, invoicing, and reporting.",
+      "ownerInvolvement": null,
+      "financing": "Third-party financing is stated; terms are unknown.",
+      "transition": "Full training is stated; duration is unknown.",
+      "summary": "Property-services operator with national accounts and cloud-supported field workflows."
+    },
+    "inference": {
+      "managerReadiness": 1,
+      "durableDemand": 4,
+      "recurringQuality": 2,
+      "operationalSimplicity": 2,
+      "concentrationQuality": null,
+      "transitionFeasibility": 2,
+      "rationale": "Durable property services and software-enabled workflows help, while a three-person owner-operated model does not prove manager capacity.",
+      "flags": ["Unusually low ask-to-cash-flow relationship", "Exact transferred asset needs verification"]
+    },
+    "unknowns": ["Recurring-revenue percentage", "Owner hours", "Manager layer", "Customer concentration"]
+  },
+  {
+    "id": "dealstream-pu5w7x",
+    "title": "National Commercial Roofing Company",
+    "tier": "B",
+    "industry": "Commercial services",
+    "location": { "label": "Texas / nationwide", "region": "Southwest" },
+    "source": {
+      "marketplace": "DealStream",
+      "listingId": "pu5w7x",
+      "canonicalUrl": "https://dealstream.com/d/biz-sale/roofers/pu5w7x",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": "2025-06-06",
+      "updatedAt": null,
+      "availabilityClaim": "Accessible with a request-information flow; availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": null,
+      "revenue": 11251000,
+      "earnings": { "value": 1863000, "sourceLabel": "Cash flow" },
+      "recurringRevenue": "Listing mentions master service agreements with larger clients.",
+      "workforce": "Specialized staff and crews are described; count is not stated.",
+      "management": null,
+      "ownerInvolvement": null,
+      "financing": "Owner would consider multiple deal structures; no financing commitment is stated.",
+      "transition": "Negotiable owner transition is offered.",
+      "summary": "National commercial roofing maintenance, restoration, and asset-management platform."
+    },
+    "inference": {
+      "managerReadiness": 2,
+      "durableDemand": 4,
+      "recurringQuality": 2,
+      "operationalSimplicity": 1,
+      "concentrationQuality": null,
+      "transitionFeasibility": 2,
+      "rationale": "Specialized crews and MSAs support continuity, but national scale, missing management detail, and an undisclosed price limit fit assessment.",
+      "flags": ["Older listing date", "Asking price undisclosed"]
+    },
+    "unknowns": ["Asking price", "Absolute EBITDA", "Customer concentration", "Management count", "Owner hours"]
+  },
+  {
+    "id": "dealstream-wlwqnn",
+    "title": "Turnkey Vacation Property Management Company",
+    "tier": "B",
+    "industry": "Property management",
+    "location": { "label": "Orange County, Florida", "region": "Southeast" },
+    "source": {
+      "marketplace": "DealStream",
+      "listingId": "wlwqnn",
+      "canonicalUrl": "https://dealstream.com/d/biz-sale/property-mgmt/wlwqnn",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": "2025-04-28",
+      "updatedAt": "2025-06-02",
+      "availabilityClaim": "Accessible with a request-information flow; availability is not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 1200000,
+      "revenue": 1211954,
+      "earnings": { "value": 315571, "sourceLabel": "Discretionary earnings" },
+      "recurringRevenue": null,
+      "workforce": null,
+      "management": "Listing states that management will stay.",
+      "ownerInvolvement": null,
+      "financing": "Seller financing is stated as available; terms are unknown.",
+      "transition": "Two-week onboarding and SOPs are stated.",
+      "summary": "Vacation-rental manager with automated pricing/reservations and 24/7 guest support."
+    },
+    "inference": {
+      "managerReadiness": 4,
+      "durableDemand": 2,
+      "recurringQuality": null,
+      "operationalSimplicity": 2,
+      "concentrationQuality": null,
+      "transitionFeasibility": 4,
+      "rationale": "Staying management and documented workflows support transition, while stale source dates and short-term-rental cyclicality/regulation raise diligence risk.",
+      "flags": ["Source update is over one year old", "Short-term rental exposure"]
+    },
+    "unknowns": ["Property count", "Management compensation", "Customer churn", "Contract assignability", "Seller-financing terms"]
+  },
+  {
+    "id": "bizbuysell-2303355",
+    "title": "Digital Advertising Company in Albuquerque",
+    "tier": "B",
+    "industry": "Marketing services",
+    "location": { "label": "Albuquerque, New Mexico", "region": "Southwest" },
+    "source": {
+      "marketplace": "BizBuySell",
+      "listingId": "2303355",
+      "canonicalUrl": "https://www.bizbuysell.com/business-opportunity/digital-advertising-company-in-albuquerque/2303355/",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Accessible active-format page; availability and last update are not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 120000,
+      "revenue": 215000,
+      "earnings": { "value": 90000, "sourceLabel": "Cash flow" },
+      "recurringRevenue": "Listing describes advertiser subscriptions and national accounts.",
+      "workforce": "Two employees.",
+      "management": "Seller says the business can be semi-passive; no manager layer is stated.",
+      "ownerInvolvement": null,
+      "financing": null,
+      "transition": "Training/support is stated; duration is unknown.",
+      "summary": "Home-based B2B digital-display advertising and support-products business."
+    },
+    "inference": {
+      "managerReadiness": 1,
+      "durableDemand": 2,
+      "recurringQuality": 2,
+      "operationalSimplicity": 3,
+      "concentrationQuality": null,
+      "transitionFeasibility": 2,
+      "rationale": "Subscriptions and low overhead are useful screen signals, but generic offer language and no manager layer require validation of the exact transferable asset.",
+      "flags": ["Freshness is unconfirmed", "Potential franchise or licensing structure"]
+    },
+    "unknowns": ["Subscription churn", "Owner hours", "Customer concentration", "Seller financing", "Training duration"]
+  },
+  {
+    "id": "bizbuysell-2185379",
+    "title": "Four-location Independent Smoothie & Juice Bar",
+    "tier": "B",
+    "industry": "Multi-site consumer",
+    "location": { "label": "East Tennessee", "region": "Southeast" },
+    "source": {
+      "marketplace": "BizBuySell",
+      "listingId": "2185379",
+      "canonicalUrl": "https://www.bizbuysell.com/business-opportunity/4-location-independent-smoothie-juice-bar-in-east-tennessee/2185379/",
+      "retrievedAt": "2026-08-03",
+      "publishedAt": null,
+      "updatedAt": null,
+      "availabilityClaim": "Accessible active-format page; availability and last update are not independently confirmed."
+    },
+    "facts": {
+      "askingPrice": 329000,
+      "revenue": 1138988,
+      "earnings": { "value": 133478, "sourceLabel": "SDE" },
+      "recurringRevenue": null,
+      "workforce": "32 employees across four leased locations.",
+      "management": null,
+      "ownerInvolvement": null,
+      "financing": "Seller financing is stated as available; terms are unknown.",
+      "transition": "Seller offers up to 30 days of transition support.",
+      "summary": "Four-store food-and-beverage operator with stated equipment value and a large hourly workforce."
+    },
+    "inference": {
+      "managerReadiness": 1,
+      "durableDemand": 2,
+      "recurringQuality": 0,
+      "operationalSimplicity": 0,
+      "concentrationQuality": null,
+      "transitionFeasibility": 1,
+      "rationale": "Employee scale helps staffing, but thin stated SDE, four-site food operations, high rent, and no manager detail make this a useful negative-control lead.",
+      "flags": ["Thin stated SDE margin", "Multi-site food complexity", "No stated manager layer"]
+    },
+    "unknowns": ["Store-level financials", "Manager structure and pay", "Owner hours", "Lease expirations", "Seller-financing terms"]
+  }
+]
