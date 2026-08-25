@@ -1,0 +1,244 @@
+{
+  "version": "prelaunch-v1.0",
+  "asOf": "2026-08-25",
+  "mode": "credential_free_planning",
+  "externalMutation": false,
+  "flagship": {
+    "name": "Main Street Radar — Search Readiness OS",
+    "surface": "responsive_web_dashboard",
+    "service": "Search Readiness Sprint",
+    "recommendationStatus": "hypothesis",
+    "why": [
+      "Extends the working provenance and scoring product instead of creating a second system.",
+      "Demonstrates product, data, workflow, and AI-safety judgment with credential-free fixtures.",
+      "Can support a client-controlled preparation sprint without claiming brokerage, advice, financing, or outreach."
+    ]
+  },
+  "recommendedPath": {
+    "id": "self_funded",
+    "label": "Self-funded-size preparation lane",
+    "status": "recommendation_hypothesis",
+    "decisionGateId": "G2-path-runway",
+    "boundary": "A reversible 12-week preparation lane, not a financing application, eligibility claim, capital commitment, or acquisition path selection."
+  },
+  "strategyHypothesis": {
+    "evidenceState": "illustrative_assumption",
+    "geography": "United States; exact regions are a Miles-owned decision",
+    "industries": [
+      "B2B services",
+      "vertical software",
+      "tech-enabled commercial services"
+    ],
+    "earningsRange": {
+      "basis": "SDE",
+      "minimum": 350000,
+      "maximum": 1000000
+    },
+    "enterpriseValueRange": {
+      "minimum": 1500000,
+      "maximum": 5000000
+    },
+    "requiredCharacteristics": [
+      "Repeat, recurring, or contracted demand that can be verified",
+      "Fragmented customer and competitor base",
+      "Retention and concentration disclosed before advance",
+      "A credible owner transition and trainable operating model",
+      "Positive cash generation after market manager cost and reinvestment"
+    ],
+    "exclusions": [
+      "No conversion between SDE and EBITDA labels",
+      "No lead advances with unknown current availability presented as active",
+      "Avoid customer concentration, owner dependence, or licensing risk until evidenced",
+      "No financing, seller note, or SBA eligibility assumed from a listing",
+      "No regulated or safety-critical vertical without qualified diligence capacity"
+    ]
+  },
+  "decisionInputs": [
+    { "id": "searcherRole", "label": "Part-time preparation or full-time operator", "category": "commitment", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "geography", "label": "Target geography and relocation constraints", "category": "thesis", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "industries", "label": "Included and excluded industries", "category": "thesis", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "earningsRange", "label": "SDE or EBITDA basis and range", "category": "thesis", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "enterpriseValue", "label": "Enterprise-value range", "category": "thesis", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "characteristics", "label": "Required quality characteristics and exclusions", "category": "thesis", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "personalRunway", "label": "Personal runway and protected reserve", "category": "capacity", "status": "unknown", "userOwned": true, "sensitive": true },
+    { "id": "weeklyHours", "label": "Weekly time commitment", "category": "capacity", "status": "unknown", "userOwned": true, "sensitive": false },
+    { "id": "riskTolerance", "label": "Debt, guarantee, concentration, and loss limits", "category": "risk", "status": "unknown", "userOwned": true, "sensitive": true },
+    { "id": "capitalPath", "label": "Traditional, self-funded, or independent-sponsor path", "category": "capital", "status": "unknown", "userOwned": true, "sensitive": true }
+  ],
+  "paths": [
+    {
+      "id": "traditional_search",
+      "label": "Traditional search fund",
+      "evidenceMaturity": "High for core-model history; unknown for Miles-specific access, terms, and outcome",
+      "illustrativeRunway": {
+        "months": 20,
+        "monthlyPersonalBurn": 7000,
+        "monthlySearchOverhead": 10000,
+        "oneTimeCosts": 60000,
+        "diligenceReserve": 70000,
+        "contingency": 30000,
+        "total": 500000
+      },
+      "dependencies": [
+        "Full-time commitment and private runway decision",
+        "Comfort with investor governance, dilution, and vesting",
+        "Evidence-based thesis and investor-network reality",
+        "Qualified securities, legal, tax, and accounting review"
+      ],
+      "continueCriteria": "Continue only after full-time commitment, protected private runway, governance acceptance, and a professionally reviewed communication path.",
+      "stopCriteria": "Stop or pause if full-time search or investor governance is unacceptable, preparation consumes the protected reserve, or professional review rejects the proposed structure."
+    },
+    {
+      "id": "self_funded",
+      "label": "Self-funded / SBA-style",
+      "evidenceMaturity": "High for SBA program boundaries; unknown for Miles-specific eligibility, terms, and capacity",
+      "illustrativeRunway": {
+        "months": 12,
+        "monthlyPersonalBurn": 6000,
+        "monthlySearchOverhead": 2000,
+        "oneTimeCosts": 20000,
+        "diligenceReserve": 0,
+        "contingency": 0,
+        "total": 116000
+      },
+      "dependencies": [
+        "Private runway, liquidity floor, and maximum concentration decision",
+        "Tolerance for debt, guarantees, collateral, and owner-operator duties",
+        "Target-specific cash-flow evidence and lender pre-screen",
+        "Qualified legal, tax, accounting, and lending review"
+      ],
+      "continueCriteria": "Continue only if private risk limits fit the target size and a real target later passes lender and professional review.",
+      "stopCriteria": "Stop or reduce target size if required buyer capital breaches the protected liquidity limit or indicated debt fails downside coverage."
+    },
+    {
+      "id": "independent_sponsor",
+      "label": "Independent sponsor",
+      "evidenceMaturity": "Descriptive practitioner evidence; unknown for Miles-specific credibility, capital relationships, and terms",
+      "illustrativeRunway": {
+        "months": 9,
+        "monthlyPersonalBurn": 6000,
+        "monthlySearchOverhead": 3000,
+        "oneTimeCosts": 30000,
+        "diligenceReserve": 50000,
+        "contingency": 0,
+        "total": 161000
+      },
+      "dependencies": [
+        "Evidenced operating and deal credibility",
+        "Broken-deal loss limit and sponsor co-invest decision",
+        "Target-specific capital-provider relationships",
+        "Qualified securities, broker-dealer, legal, tax, and accounting review"
+      ],
+      "continueCriteria": "Continue only with a credible target thesis, evidenced execution fit, tolerable broken-deal exposure, and a plausible but uncommitted capital-provider universe.",
+      "stopCriteria": "Stop if the path depends on unearned credibility, capital appearing only after exclusivity, or compensation and governance that cannot pass professional review."
+    }
+  ],
+  "roadmap": [
+    { "week": 1, "outcome": "Context and boundary locked", "acceptance": "Exact chats and repo state linked; summaries are not treated as authority." },
+    { "week": 2, "outcome": "Strategy decision-ready", "acceptance": "Required thesis, runway, time, and risk fields are decided or explicitly deferred." },
+    { "week": 3, "outcome": "Path decision-ready", "acceptance": "Three paths compared with personal inputs still private and unknown by default." },
+    { "week": 4, "outcome": "Local operating contract proven", "acceptance": "Schemas and fixtures validate with no connector, account, or external mutation." },
+    { "week": 5, "outcome": "Sourcing dry run", "acceptance": "Every retained lead has canonical provenance; blocked and conflicting fetches stay visible." },
+    { "week": 6, "outcome": "Score and workflow reconciliation", "acceptance": "screen-v1.0 limits are documented and deterministic regression checks pass." },
+    { "week": 7, "outcome": "Weekly cockpit", "acceptance": "Coverage gaps lead; KPI denominators and decision queue are explicit." },
+    { "week": 8, "outcome": "Diligence room", "acceptance": "Privacy-safe pointers and review states work; no gated documents enter git." },
+    { "week": 9, "outcome": "Capital planning", "acceptance": "Unknown inputs cannot produce a balanced case, DSCR, approval, or eligibility label." },
+    { "week": 10, "outcome": "Outreach rehearsal only", "acceptance": "Synthetic drafts remain unsent with sentAt null and no send path." },
+    { "week": 11, "outcome": "Flagship usability validation", "acceptance": "Employer demo passes and target-user feedback is recorded separately from demand claims." },
+    { "week": 12, "outcome": "Continue, pivot, or pause", "acceptance": "A decision memo records evidence, risks, dependencies, and any later approval gate." }
+  ],
+  "kpis": [
+    { "id": "coverageRate", "label": "Source coverage rate", "numerator": "successfulCanonicalFetches", "denominator": "attemptedCanonicalFetches", "formula": "successfulCanonicalFetches / attemptedCanonicalFetches", "zeroDenominator": "null", "boundary": "Retrieval coverage, not opportunity quality or availability." },
+    { "id": "dedupeRate", "label": "Duplicate rate", "numerator": "duplicateObservations", "denominator": "normalizedObservations", "formula": "duplicateObservations / normalizedObservations", "zeroDenominator": "null", "boundary": "Pipeline hygiene, not source accuracy." },
+    { "id": "inThesisRate", "label": "In-thesis rate", "numerator": "inThesisLeads", "denominator": "uniqueScoredLeads", "formula": "inThesisLeads / uniqueScoredLeads", "zeroDenominator": "null", "boundary": "Thesis selectivity under a versioned screen, not deal quality." },
+    { "id": "criticalGapRate", "label": "Critical-gap rate", "numerator": "leadsWithCriticalUnknowns", "denominator": "uniqueScoredLeads", "formula": "leadsWithCriticalUnknowns / uniqueScoredLeads", "zeroDenominator": "null", "boundary": "Evidence burden, not failure probability." },
+    { "id": "reviewRate", "label": "Partner-review rate", "numerator": "partnerReviewEntries", "denominator": "uniqueScoredLeads", "formula": "partnerReviewEntries / uniqueScoredLeads", "zeroDenominator": "null", "boundary": "Human workflow movement, not seller engagement." },
+    { "id": "decisionSla", "label": "Decision SLA", "numerator": "reviewDecisionsWithinSevenDays", "denominator": "partnerReviewEntries", "formula": "reviewDecisionsWithinSevenDays / partnerReviewEntries", "zeroDenominator": "null", "boundary": "Internal operating responsiveness only." },
+    { "id": "approvalToSendRate", "label": "Approval-to-send rate", "numerator": "confirmedOutboundSends", "denominator": "approvedOutreachRecords", "formula": "confirmedOutboundSends / approvedOutreachRecords", "zeroDenominator": "null", "boundary": "Unavailable in this pre-launch demo because no send path exists." },
+    { "id": "diligenceConversion", "label": "Diligence conversion", "numerator": "authorizedDiligenceEntries", "denominator": "substantiveEngagements", "formula": "authorizedDiligenceEntries / substantiveEngagements", "zeroDenominator": "null", "boundary": "Process progression, not target quality or closing probability." }
+  ],
+  "decisionGates": [
+    { "id": "G0-context", "owner": "Miles", "status": "verified", "requiredEvidence": "Exact prior chats and live repository state", "passResult": "Operating assumptions may be drafted." },
+    { "id": "G1-strategy", "owner": "Miles", "status": "open", "requiredEvidence": "All required SearchStrategy inputs", "passResult": "Strategy becomes explicitly approved." },
+    { "id": "G2-path-runway", "owner": "Miles", "status": "open", "requiredEvidence": "Path comparison plus private runway, time, and risk decisions", "passResult": "One preparation path is selected; no capital claim." },
+    { "id": "G3-model-release", "owner": "Miles / product owner", "status": "open", "requiredEvidence": "Model reconciliation, version decision, and passing checks", "passResult": "Screen may be used beyond the demo within its stated boundary." },
+    { "id": "G4-outreach-release", "owner": "Miles and appropriate reviewer", "status": "blocked_by_scope", "requiredEvidence": "Exact recipient, channel, template, suppression, claim, and approval record", "passResult": "A later narrowly approved outbound action; no seller interest implied." },
+    { "id": "G5-diligence-advance", "owner": "Miles", "status": "open", "requiredEvidence": "Scorecard, risks, requested evidence, and conflicts", "passResult": "Advance, hold, or decline a target." },
+    { "id": "G6-capital-communication", "owner": "Miles and qualified counsel", "status": "blocked_by_scope", "requiredEvidence": "Exact audience, materials, path, and current legal review", "passResult": "A later permitted communication scope only." },
+    { "id": "G7-transaction", "owner": "Miles and qualified professionals", "status": "blocked_by_scope", "requiredEvidence": "Target-specific diligence, financing, structure, and approvals", "passResult": "A separate commitment decision outside pre-launch scope." }
+  ],
+  "risks": [
+    { "id": "R1", "statement": "Personal decisions are replaced by favorable defaults.", "likelihood": 4, "impact": 5, "riskScore": 20, "mitigation": "Keep user-owned fields unknown until G1 and G2 are explicitly decided." },
+    { "id": "R2", "statement": "A stale or blocked listing is presented as currently available.", "likelihood": 4, "impact": 4, "riskScore": 16, "mitigation": "Preserve retrieval date, availability claim, and coverage gaps; refresh before action." },
+    { "id": "R3", "statement": "Multiple engines are mistaken for independent corroboration of one source.", "likelihood": 3, "impact": 4, "riskScore": 12, "mitigation": "Track canonical lineage and retain conflicts without overwriting." },
+    { "id": "R4", "statement": "A score is treated as valuation, underwriting approval, or buy recommendation.", "likelihood": 4, "impact": 5, "riskScore": 20, "mitigation": "Show fixed rubric, caps, evidence states, and human decision gates everywhere." },
+    { "id": "R5", "statement": "Illustrative capital math is treated as financing availability or eligibility.", "likelihood": 4, "impact": 5, "riskScore": 20, "mitigation": "Label all scenarios illustrative and withhold outputs when target inputs are unknown." },
+    { "id": "R6", "statement": "Sensitive client, tax, bank, or gated diligence data enters source control.", "likelihood": 2, "impact": 5, "riskScore": 10, "mitigation": "Store only privacy-safe metadata pointers and hashes; keep raw material outside git." },
+    { "id": "R7", "statement": "Draft outreach is mistaken for approval, send, or seller engagement.", "likelihood": 3, "impact": 5, "riskScore": 15, "mitigation": "Keep drafts synthetic, draftOnly true, sentAt null, and provide no send control." },
+    { "id": "R8", "statement": "Consulting compensation or activity crosses legal, securities, or broker-dealer boundaries.", "likelihood": 3, "impact": 5, "riskScore": 15, "mitigation": "Exclude transaction intermediation and success-compensation recommendations pending qualified counsel." },
+    { "id": "R9", "statement": "Tool polish is presented as target-user validation or business demand.", "likelihood": 4, "impact": 3, "riskScore": 12, "mitigation": "Separate automated checks, usability evidence, willingness to pay, clients, and revenue claims." },
+    { "id": "R10", "statement": "The weekly workflow exceeds approved capacity and becomes noisy inventory work.", "likelihood": 3, "impact": 3, "riskScore": 9, "mitigation": "Time-box the cadence, suppress unchanged leads, and pause after two capacity overruns." }
+  ],
+  "weeklyCadence": [
+    { "when": "Monday", "minutes": 30, "activity": "Thesis, path, and capacity check", "output": "One weekly outcome and decision queue" },
+    { "when": "Tuesday–Thursday", "minutes": 45, "activity": "Read-only sourcing, validation, normalization, dedupe, and enrichment", "output": "Changed observations and evidence tasks" },
+    { "when": "Friday", "minutes": 45, "activity": "Partner review of new or changed in-thesis leads", "output": "Advance, hold, or decline decisions with reasons" },
+    { "when": "Friday", "minutes": 20, "activity": "KPI, risk, and dependency review", "output": "Weekly rollup with unchanged noise suppressed" },
+    { "when": "Monthly", "minutes": 60, "activity": "Strategy, path, runway, and model-version review", "output": "Continue, pivot, or pause decision" }
+  ],
+  "diligenceFolders": [
+    { "id": "00-index", "purpose": "Request log, document index, permissions, owners, and review status" },
+    { "id": "01-corporate-ownership", "purpose": "Formation, capitalization, governance, subsidiaries, and ownership evidence" },
+    { "id": "02-financial", "purpose": "Statements, ledgers, quality of earnings, debt, capex, and working capital" },
+    { "id": "03-commercial", "purpose": "Revenue, contracts, pricing, pipeline, cohorts, retention, and concentration" },
+    { "id": "04-operations", "purpose": "Owner role, org chart, SOPs, KPIs, facilities, equipment, and inventory" },
+    { "id": "05-people-benefits", "purpose": "Employees, contractors, compensation, benefits, turnover, and disputes" },
+    { "id": "06-legal-regulatory", "purpose": "Contracts, licenses, permits, IP, litigation, compliance, and privacy" },
+    { "id": "07-tax", "purpose": "Returns, notices, audits, payroll, sales tax, nexus, and transaction structure" },
+    { "id": "08-insurance-risk", "purpose": "Policies, claims, loss runs, safety, and environmental materials" },
+    { "id": "09-technology-security", "purpose": "Systems, vendors, access, incidents, continuity, and data practices" },
+    { "id": "10-transaction-financing", "purpose": "Sources and uses, debt evidence, seller terms, working-capital peg, and conditions" },
+    { "id": "11-transition-100-day", "purpose": "Handoffs, introductions, manager plan, Day 1, and 100-day plan" }
+  ],
+  "outreachTemplates": [
+    {
+      "id": "broker-first-note",
+      "audience": "broker",
+      "draftOnly": true,
+      "sentAt": null,
+      "subject": "Question about {{listingTitle}}",
+      "body": "Hi {{firstName}}, I am reviewing {{listingTitle}} for fit with a documented acquisition thesis. Before deciding whether to request further information, could you confirm current availability and the source label and period for the reported earnings? I have not assumed SBA eligibility, seller financing, or accuracy of the listing figures. Thank you, {{senderName}}"
+    },
+    {
+      "id": "owner-research-note",
+      "audience": "owner",
+      "draftOnly": true,
+      "sentAt": null,
+      "subject": "Private, exploratory conversation about {{companyName}}",
+      "body": "Hi {{firstName}}, I am researching companies in {{industry}} and came across {{companyName}} through public information. I do not know whether you are considering a transaction. If a confidential introductory conversation would ever be useful, I can share the scope and participants for review first. No action has been taken from this draft. Best, {{senderName}}"
+    },
+    {
+      "id": "single-follow-up",
+      "audience": "broker_or_owner",
+      "draftOnly": true,
+      "sentAt": null,
+      "subject": "Following up: {{topic}}",
+      "body": "Hi {{firstName}}, one brief follow-up on my note about {{topic}}. If this is not relevant, no response is needed and I will close the item. If it is relevant, please suggest the appropriate next step. Thank you, {{senderName}}"
+    }
+  ],
+  "sources": [
+    { "id": "S1", "publisher": "Stanford Graduate School of Business", "title": "2026 Search Fund Study: Selected Observations", "publishedAt": "2026", "accessedAt": "2026-08-25", "classification": "primary", "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/2026-search-fund-study-selected-observations", "supports": "Core U.S. and Canadian search-fund study scope through 2025-12-31." },
+    { "id": "S2", "publisher": "Stanford Graduate School of Business", "title": "Search Funds Keep Offering a Proven Path to Ownership", "publishedAt": "2026-07-13", "accessedAt": "2026-08-25", "classification": "primary_summary", "url": "https://www.gsb.stanford.edu/insights/search-funds-keep-offering-proven-path-ownership", "supports": "Official summary of acquisition rate, time, purchase price, aggregate IRR, ROI, and PME." },
+    { "id": "S3", "publisher": "Stanford Graduate School of Business", "title": "A Primer on Search Funds: A Practical Guide for Entrepreneurs Embarking on a Search Fund", "publishedAt": "2026", "accessedAt": "2026-08-25", "classification": "primary", "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/primer-search-funds-practical-guide-entrepreneurs-embarking-search", "supports": "Core-model stages and stakeholder framing." },
+    { "id": "S4", "publisher": "U.S. Small Business Administration", "title": "7(a) loans", "publishedAt": "current", "accessedAt": "2026-08-25", "classification": "government_primary", "url": "https://www.sba.gov/loans/7a-loans/", "supports": "Permitted uses, maximum loan amount, eligibility boundary, and lender application process." },
+    { "id": "S5", "publisher": "U.S. Small Business Administration", "title": "SOP 50 10, version 8", "publishedAt": "2025-06-01", "accessedAt": "2026-08-25", "classification": "government_primary", "url": "https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs", "supports": "Current lender origination policy at the as-of date; version 8.1 is posted but not effective until 2026-10-01." },
+    { "id": "S6", "publisher": "U.S. Securities and Exchange Commission", "title": "Private Funds", "publishedAt": "2026-04-24", "accessedAt": "2026-08-25", "classification": "government_primary", "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/private-funds", "supports": "Private-fund, adviser, exempt-offering, and antifraud boundaries." },
+    { "id": "S7", "publisher": "U.S. Securities and Exchange Commission", "title": "General solicitation — Rule 506(c)", "publishedAt": "2024-06-21", "accessedAt": "2026-08-25", "classification": "government_primary", "url": "https://www.sec.gov/resources-small-businesses/exempt-offerings/general-solicitation-rule-506c", "supports": "Accredited-purchaser and verification conditions for Rule 506(c)." },
+    { "id": "S8", "publisher": "U.S. Securities and Exchange Commission", "title": "Guide to Broker-Dealer Registration", "publishedAt": "2008-04", "accessedAt": "2026-08-25", "classification": "government_guidance", "url": "https://www.sec.gov/about/divisions-offices/division-trading-markets/division-trading-markets-compliance-guides/guide-broker-dealer-registration", "supports": "Factors relevant to finders, business brokers, M&A activity, and transaction-based compensation." },
+    { "id": "S9", "publisher": "Internal Revenue Service", "title": "About Form 8594, Asset Acquisition Statement Under Section 1060", "publishedAt": "current", "accessedAt": "2026-08-25", "classification": "government_primary", "url": "https://www.irs.gov/forms-pubs/about-form-8594", "supports": "Asset-acquisition reporting boundary for qualifying transfers." },
+    { "id": "S10", "publisher": "Federal Trade Commission", "title": "Cybersecurity for Small Business", "publishedAt": "current", "accessedAt": "2026-08-25", "classification": "government_guidance", "url": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity", "supports": "Security, asset inventory, vendor risk, and data-protection diligence prompts." },
+    { "id": "S11", "publisher": "U.S. Small Business Administration", "title": "Plan your business — buy an existing business", "publishedAt": "current", "accessedAt": "2026-08-25", "classification": "government_guidance", "url": "https://www.sba.gov/counseling/plan-your-business/", "supports": "Investment, operator fit, contracts, leases, cash flow, and inventory questions." },
+    { "id": "S12", "publisher": "McGuireWoods", "title": "2024 Deal Survey of Independent Sponsor-Led Transactions", "publishedAt": "2024", "accessedAt": "2026-08-25", "classification": "industry_primary_survey", "url": "https://media.mcguirewoods.com/publications/flipbooks/is-deal-survey-2024/index.html", "supports": "Descriptive independent-sponsor deal mechanics from more than 300 responses covering 2021–2023 transactions." },
+    { "id": "S13", "publisher": "McGuireWoods", "title": "Independent Sponsor Capital Raising in 2026: Getting to Yes in a Challenging Market", "publishedAt": "2026-01-29", "accessedAt": "2026-08-25", "classification": "industry_practitioner", "url": "https://www.mcguirewoods.com/client-resources/alerts/2026/1/independent-sponsor-capital-raising-in-2026-getting-to-yes-in-a-challenging-market/", "supports": "Current practitioner observations on preparation, selectivity, thesis, and process." }
+  ]
+}

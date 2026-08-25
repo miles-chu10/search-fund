@@ -1,0 +1,43 @@
+version = 1
+name = "Main Street Radar"
+
+[setup]
+script = '''
+set -euo pipefail
+npm ci
+'''
+
+[[actions]]
+name = "Start app"
+icon = "run"
+command = "npm run dev -- --host 127.0.0.1 --port 4173"
+
+[[actions]]
+name = "Run tests"
+icon = "test"
+command = "npm test"
+
+[[actions]]
+name = "Lint"
+icon = "test"
+command = "npm run lint"
+
+[[actions]]
+name = "Typecheck"
+icon = "test"
+command = "npm run typecheck"
+
+[[actions]]
+name = "Validate sources"
+icon = "test"
+command = "npm run validate:sources"
+
+[[actions]]
+name = "Build"
+icon = "test"
+command = "npm run build"
+
+[[actions]]
+name = "Full check"
+icon = "test"
+command = "npm run check"

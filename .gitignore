@@ -9,3 +9,9 @@ coverage/
 playwright-report/
 test-results/
 .vite/
+
+# Machine-local agent and editor state
+/.claude/
+/.mcp.json
+/.repowise/
+/.vscode/

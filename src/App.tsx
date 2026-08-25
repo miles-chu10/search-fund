@@ -1,4 +1,4 @@
-import { BarChart3, CalendarClock, GitCompareArrows, Landmark, Menu, Radar, Search, ShieldCheck, X } from 'lucide-react'
+import { BarChart3, CalendarClock, ClipboardCheck, GitCompareArrows, Landmark, Menu, Radar, Search, ShieldCheck, X } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import { CapitalView } from './components/CapitalView'
 import { ComparePanel } from './components/ComparePanel'
@@ -6,15 +6,17 @@ import { CriteriaPanel } from './components/CriteriaPanel'
 import { DealDrawer } from './components/DealDrawer'
 import { EvidenceLegend } from './components/EvidenceBadge'
 import { OpportunityTable, type PipelineStage, type ScoredOpportunity } from './components/OpportunityTable'
+import { ReadinessView } from './components/ReadinessView'
 import { RefreshView } from './components/RefreshView'
 import { industries, opportunities, regions } from './data/load'
 import { DEFAULT_CRITERIA, scoreOpportunity } from './domain/scoring'
 import type { AcquisitionCriteria, Opportunity } from './domain/schema'
 
-type ViewId = 'pipeline' | 'refresh' | 'capital'
+type ViewId = 'pipeline' | 'readiness' | 'refresh' | 'capital'
 
 const viewCopy: Record<ViewId, string> = {
   pipeline: 'Opportunity pipeline',
+  readiness: 'Search readiness',
   refresh: 'Daily refresh',
   capital: 'Capital plan',
 }
@@ -80,6 +82,7 @@ function App() {
         <button className="nav-close icon-button" type="button" onClick={() => setNavOpen(false)} aria-label="Close navigation"><X size={18} /></button>
         <div className="nav-group">
           <button className={view === 'pipeline' ? 'active' : ''} type="button" onClick={() => changeView('pipeline')}><BarChart3 size={17} /><span>Pipeline</span><small>{opportunities.length}</small></button>
+          <button className={view === 'readiness' ? 'active' : ''} type="button" onClick={() => changeView('readiness')}><ClipboardCheck size={17} /><span>Readiness</span><small>12 weeks</small></button>
           <button className={view === 'refresh' ? 'active' : ''} type="button" onClick={() => changeView('refresh')}><CalendarClock size={17} /><span>Refresh</span><small>Preview</small></button>
           <button className={view === 'capital' ? 'active' : ''} type="button" onClick={() => changeView('capital')}><Landmark size={17} /><span>Capital</span><small>3 paths</small></button>
         </div>
@@ -133,6 +136,7 @@ function App() {
           </div>
         )}
 
+        {view === 'readiness' && <ReadinessView />}
         {view === 'refresh' && <RefreshView />}
         {view === 'capital' && <CapitalView opportunities={opportunities} maximumEquityCheck={criteria.maximumEquityCheck} />}
       </div>
